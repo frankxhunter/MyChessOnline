@@ -11,5 +11,4 @@ import { LateralBarComponent } from './lateral-bar/lateral-bar.component';
   styleUrl: './app.component.css'
 })
 export class AppComponent {
-  title = 'MyChessOnline';
 }

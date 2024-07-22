@@ -1,0 +1,4 @@
+.body_app{
+    display: grid;
+    grid-template-columns: var(--width-lateral-bar) 1fr;
+}

@@ -1,5 +1,8 @@
-aside {
-    position: fixed;
+.aside {
+    position: sticky;
+    top: 0;
+    overflow: hidden;
+    width: var(--width-lateral-bar);
     height: 100vh;
     padding: 15px;
     background-color: #262522;
@@ -35,9 +38,7 @@ li img{
     height: 40px;
     margin-right: 8px ;
 }
-.board_icon{
-    border-radius: 10px;
-}
+
 
 /* .rellanador{
     height: 30vh;
@@ -54,7 +55,7 @@ li img{
     width: 100%;
     height: 40px;
     border: none;
-    border-radius: 5px;
+    border-radius: var(--button-border-radius);
     font-size: 20px;
     font-family: cursive;
     filter: brightness(.8);
